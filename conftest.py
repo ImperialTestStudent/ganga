@@ -20,4 +20,4 @@ def pytest_collection_modifyitems(config, items):
         if "externals" in item.keywords:
             item.add_marker(skip_externals)
 
-pytest_plugins = "ganga.GangaCore.testlib.fixtures"
+pytest_plugins =  "ganga.GangaCore.testlib.fixtures"
